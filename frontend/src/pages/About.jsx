@@ -94,6 +94,28 @@ const About = () => {
         </div>
       </section>
 
+      {/* Our Story Section */}
+      <section className="py-20 bg-primary/5">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <h4 className="text-primary font-bold text-sm tracking-wider uppercase mb-2">Our Story</h4>
+            <h2 className="text-3xl font-bold text-gray-900 mb-8">How It Started?</h2>
+            
+            <div className="space-y-6 text-gray-700 font-medium text-[17px] leading-relaxed">
+              <p>2020 was a year when the world was struggling through the COVID-19 pandemic.</p>
+              <p>During those difficult times, a group of high school students came together to help underprivileged communities using whatever resources they could arrange.</p>
+              <p>They started conducting relief efforts, food distribution drives, and community support activities.</p>
+              <p className="font-bold text-gray-900 pt-4">On 28 March 2021, InAmigos Foundation officially began its journey to serve society and empower communities through youth-led initiatives.</p>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Key Initiatives */}
       <section className="py-20 bg-gray-50 border-y border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
