@@ -182,9 +182,9 @@ const Home = () => {
               className="order-2 lg:order-1"
             >
               <h4 className="text-primary font-bold text-sm tracking-wider uppercase mb-2">About Us</h4>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">What is InAmigos?</h2>
-              <p className="text-gray-600 font-medium mb-6">
-                InAmigos Foundation is a registered NGO committed to bringing change and helping people during difficult times. We aim to uplift the underprivileged sections of our society.
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">InAmigos Foundation</h2>
+              <p className="text-gray-600 font-medium mb-6 leading-relaxed">
+                InAmigos Foundation, founded on September 23, 2020, by Mr. Govind Shukla (Founder & CEO), is a Section 8 registered non-profit organization committed to creating lasting social impact across India.
               </p>
               <ul className="space-y-4 mb-8">
                 {[
