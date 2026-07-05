@@ -81,16 +81,16 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <Phone size={18} className="mt-0.5" />
-                <span className="text-sm font-medium">+91 91234 56789</span>
+                <Phone size={18} className="mt-0.5 shrink-0" />
+                <span className="text-sm font-medium">+91 626 730 9902</span>
               </li>
               <li className="flex items-start gap-3">
-                <Mail size={18} className="mt-0.5" />
-                <span className="text-sm font-medium">info@inamigosfoundation.org</span>
+                <Mail size={18} className="mt-0.5 shrink-0" />
+                <span className="text-sm font-medium">inamigosfoundation@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="mt-0.5 shrink-0" />
-                <span className="text-sm font-medium">InAmigos Foundation, Pune, Maharashtra, India</span>
+                <span className="text-sm font-medium">Ward No. 5, Gram Post, Sipat Ujwal Nagar,<br />Bilaspur, Chhattisgarh - 495555</span>
               </li>
             </ul>
           </div>

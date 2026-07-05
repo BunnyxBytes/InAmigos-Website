@@ -108,25 +108,25 @@ const GetInvolved = () => {
                     </div>
                     <div>
                       <p className="text-sm text-gray-400">Call Us</p>
-                      <p className="font-bold">+91 91234 56789</p>
+                      <p className="font-bold">+91 626 730 9902</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center shrink-0">
                       <Mail size={24} className="text-secondary" />
                     </div>
                     <div>
                       <p className="text-sm text-gray-400">Email Us</p>
-                      <p className="font-bold">info@inamigosfoundation.org</p>
+                      <p className="font-bold break-all">inamigosfoundation@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+                    <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center shrink-0">
                       <MapPin size={24} className="text-secondary" />
                     </div>
                     <div>
                       <p className="text-sm text-gray-400">Visit Us</p>
-                      <p className="font-bold">Pune, Maharashtra, India</p>
+                      <p className="font-bold text-sm leading-relaxed">Ward No. 5, Gram Post, Sipat Ujwal Nagar,<br />Bilaspur, Chhattisgarh - 495555</p>
                     </div>
                   </div>
                 </div>
