@@ -57,7 +57,7 @@ const About = () => {
                 <p>2020 was a year when the world was struggling through the COVID-19 pandemic.</p>
                 <p>During those difficult times, a group of high school students came together to help underprivileged communities using whatever resources they could arrange.</p>
                 <p>They started conducting relief efforts, food distribution drives, and community support activities.</p>
-                <p className="font-bold text-gray-900 pt-2">On 28 March 2021, InAmigos Foundation officially began its journey to serve society and empower communities through youth-led initiatives.</p>
+                <p className="font-bold text-gray-900 pt-2">On 23 September 2020, InAmigos Foundation officially began its journey to serve society and empower communities through youth-led initiatives.</p>
               </div>
             </motion.div>
             <motion.div
@@ -66,9 +66,9 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <img 
-                src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-                alt="Community work" 
+              <img
+                src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Community work"
                 className="rounded-2xl shadow-xl w-full"
               />
             </motion.div>
@@ -132,7 +132,7 @@ const About = () => {
             <p className="text-lg text-gray-700 font-medium leading-relaxed mb-16">
               At InAmigos Foundation, we believe in the power of collective action. Our transparent operations and strong partnerships enable us to bring real, measurable change to society. Through our social media presence and online platforms, we ensure that every initiative reaches the right audience, encouraging more individuals and organizations to join our mission.
             </p>
-            
+
             <div className="bg-primary/5 rounded-3xl p-10 md:p-14 border border-primary/10">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Join Us in Making a Difference</h2>
               <p className="text-gray-600 font-medium mb-10 text-lg max-w-2xl mx-auto">
