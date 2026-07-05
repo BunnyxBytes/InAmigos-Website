@@ -51,32 +51,14 @@ const About = () => {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h4 className="text-primary font-bold text-sm tracking-wider uppercase mb-2">About Us</h4>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">InAmigos Foundation</h2>
-              <p className="text-gray-600 font-medium mb-6 leading-relaxed">
-                InAmigos Foundation, founded on September 23, 2020, by Mr. Govind Shukla (Founder & CEO), is a Section 8 registered non-profit organization committed to creating lasting social impact. With its base in Chhattisgarh, the foundation operates across India, addressing critical societal issues through a network of dedicated professionals and volunteers.
-              </p>
-              
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Credentials & Recognitions:</h3>
-              <ul className="space-y-3 mb-6">
-                {[
-                  'Registered under Section 8 - Licensed by the Central Government',
-                  '80G & 12A Certified - Ensuring transparency, accountability, and tax exemptions for donors',
-                  'CSR-1 Registered - Eligible for corporate CSR partnerships',
-                  'NITI Aayog Registered - Aligning with national development goals',
-                  'IAF ISO 9001:2015 Certified - Committed to maintaining high-quality standards'
-                ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-3 text-gray-700">
-                    <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0 mt-0.5">
-                      <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
-                    </div>
-                    <div className="text-[15px]">
-                      <span className="font-bold">{item.split(' - ')[0]}</span>
-                      {item.split(' - ')[1] && <span className="text-gray-500 font-medium"> - {item.split(' - ')[1]}</span>}
-                    </div>
-                  </li>
-                ))}
-              </ul>
+              <h4 className="text-primary font-bold text-sm tracking-wider uppercase mb-2">Our Story</h4>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">How It Started?</h2>
+              <div className="space-y-4 text-gray-600 font-medium leading-relaxed">
+                <p>2020 was a year when the world was struggling through the COVID-19 pandemic.</p>
+                <p>During those difficult times, a group of high school students came together to help underprivileged communities using whatever resources they could arrange.</p>
+                <p>They started conducting relief efforts, food distribution drives, and community support activities.</p>
+                <p className="font-bold text-gray-900 pt-2">On 28 March 2021, InAmigos Foundation officially began its journey to serve society and empower communities through youth-led initiatives.</p>
+              </div>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 50 }}
@@ -94,25 +76,45 @@ const About = () => {
         </div>
       </section>
 
-      {/* Our Story Section */}
-      <section className="py-20 bg-primary/5">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      {/* About Us & Credentials */}
+      <section className="py-20 bg-primary/5 border-t border-primary/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
+            className="text-center mb-12"
           >
-            <h4 className="text-primary font-bold text-sm tracking-wider uppercase mb-2">Our Story</h4>
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">How It Started?</h2>
-            
-            <div className="space-y-6 text-gray-700 font-medium text-[17px] leading-relaxed">
-              <p>2020 was a year when the world was struggling through the COVID-19 pandemic.</p>
-              <p>During those difficult times, a group of high school students came together to help underprivileged communities using whatever resources they could arrange.</p>
-              <p>They started conducting relief efforts, food distribution drives, and community support activities.</p>
-              <p className="font-bold text-gray-900 pt-4">On 28 March 2021, InAmigos Foundation officially began its journey to serve society and empower communities through youth-led initiatives.</p>
-            </div>
+            <h4 className="text-primary font-bold text-sm tracking-wider uppercase mb-2">About Us</h4>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">InAmigos Foundation</h2>
+            <p className="text-gray-700 font-medium text-lg leading-relaxed max-w-4xl mx-auto">
+              InAmigos Foundation, founded on September 23, 2020, by Mr. Govind Shukla (Founder & CEO), is a Section 8 registered non-profit organization committed to creating lasting social impact. With its base in Chhattisgarh, the foundation operates across India, addressing critical societal issues through a network of dedicated professionals and volunteers.
+            </p>
           </motion.div>
+
+          <div className="bg-white p-8 md:p-12 rounded-3xl shadow-lg border border-gray-100 max-w-5xl mx-auto">
+            <h3 className="text-2xl font-bold text-center text-gray-900 mb-10">Our Credentials & Recognitions</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {[
+                'Registered under Section 8 - Licensed by the Central Government',
+                '80G & 12A Certified - Ensuring transparency, accountability, and tax exemptions for donors',
+                'CSR-1 Registered - Eligible for corporate CSR partnerships',
+                'NITI Aayog Registered - Aligning with national development goals',
+                'IAF ISO 9001:2015 Certified - Committed to maintaining high-quality standards'
+              ].map((item, i) => (
+                <div key={i} className="flex items-start gap-4 p-4 rounded-xl hover:bg-gray-50 transition-colors">
+                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-600 shrink-0 mt-1">
+                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-gray-900 text-lg mb-1">{item.split(' - ')[0]}</h4>
+                    {item.split(' - ')[1] && <p className="text-gray-600 font-medium text-sm leading-relaxed">{item.split(' - ')[1]}</p>}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
