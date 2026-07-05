@@ -10,36 +10,52 @@ const OurWorks = () => {
 
   const programs = [
     {
-      title: 'Food Distribution',
-      description: 'We organize regular food drives to distribute nutritious meals and essential groceries to marginalized communities, homeless individuals, and families in need. We also extend our efforts to feeding stray animals, ensuring compassion for all living beings.',
+      title: 'Project SEVA',
+      description: 'Over 50,000+ meals and clothing distributed to the underprivileged.',
       icon: Utensils,
       image: 'https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       color: 'bg-yellow-100',
       iconColor: 'text-yellow-600'
     },
     {
-      title: 'Education Support',
-      description: 'Education is the most powerful tool for change. We provide study materials, stationery, and learning resources to underprivileged children. By supporting their educational journey, we aim to equip them with the knowledge and skills needed to build a better future.',
+      title: 'Project BACHPANSHALA',
+      description: 'Bridging educational gaps by training underprivileged children in basic digital literacy, life skills, and school education support.',
       icon: BookOpen,
       image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       color: 'bg-blue-100',
       iconColor: 'text-blue-600'
     },
     {
-      title: 'Women Empowerment',
-      description: 'We conduct awareness sessions on menstrual hygiene and distribute free sanitary napkins to women in rural and impoverished areas. Our goal is to break stigmas, promote health, and restore dignity, ensuring women can participate fully in society.',
+      title: 'Project JEEV',
+      description: 'Dedicated to animal welfare, feeding 50+ stray animals daily through our volunteer network.',
+      icon: Heart,
+      image: 'https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      color: 'bg-orange-100',
+      iconColor: 'text-orange-600'
+    },
+    {
+      title: 'Project UDAAN',
+      description: 'Empowering women by collaborating with self-help groups in rural areas, promoting financial independence, skill development, and menstrual hygiene awareness.',
       icon: Shield,
-      image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       color: 'bg-pink-100',
       iconColor: 'text-pink-600'
     },
     {
-      title: 'Health & Hygiene',
-      description: 'Access to basic healthcare is a fundamental right. We organize health camps, distribute hygiene kits (including soaps, masks, and sanitizers), and raise awareness about cleanliness and preventive healthcare practices to protect vulnerable populations.',
+      title: 'Project PRAKRITI',
+      description: 'Advocating for sustainability and environmental conservation by planting 20,000+ saplings and supporting eco-friendly agriculture.',
       icon: Heart,
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       color: 'bg-green-100',
       iconColor: 'text-green-600'
+    },
+    {
+      title: 'Project VIKAS',
+      description: 'Facilitating employment and skill development through internships in various fields, having trained 30,000+ interns in the last four years in data operations, finance, research, content writing, digital marketing, social work, and more.',
+      icon: BookOpen,
+      image: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      color: 'bg-purple-100',
+      iconColor: 'text-purple-600'
     }
   ];
 

@@ -118,41 +118,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Key Initiatives */}
-      <section className="py-20 bg-gray-50 border-y border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Key Initiatives & Impact</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Driving change through dedicated projects across India.</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              { title: 'Project SEVA', desc: 'Over 50,000+ meals and clothing distributed to the underprivileged.' },
-              { title: 'Project BACHPANSHALA', desc: 'Bridging educational gaps by training underprivileged children in basic digital literacy, life skills, and school education support.' },
-              { title: 'Project JEEV', desc: 'Dedicated to animal welfare, feeding 50+ stray animals daily through our volunteer network.' },
-              { title: 'Project UDAAN', desc: 'Empowering women by collaborating with self-help groups in rural areas, promoting financial independence, skill development, and menstrual hygiene awareness.' },
-              { title: 'Project PRAKRITI', desc: 'Advocating for sustainability and environmental conservation by planting 20,000+ saplings and supporting eco-friendly agriculture.' },
-              { title: 'Project VIKAS', desc: 'Facilitating employment and skill development through internships in various fields, having trained 30,000+ interns in the last four years in data operations, finance, research, content writing, digital marketing, social work, and more.' }
-            ].map((value, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.5 }}
-                className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 text-center hover:shadow-md transition-shadow flex flex-col items-center"
-              >
-                <div className="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center mx-auto mb-6 shrink-0">
-                  <Target size={32} />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{value.title}</h3>
-                <p className="text-gray-600 text-sm font-medium leading-relaxed">{value.desc}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Key Initiatives moved to Our Works page */}
 
       {/* Conclusion & CTA */}
       <section className="py-20 bg-white">
